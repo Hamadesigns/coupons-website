@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+html, body{overflow-x: hidden;}
+
+#myNavbar
+{
+    border-width: 0px;
+    height: 60px;
+    opacity: .9;
+    align-content: space-between;
+    width: 100%;
+    padding: 0%;
+    border-radius: 0px;  
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+
+}
+#listspan
+{
+    display: block;
+    color: #ffffff;
+}
+#listspan:hover
+{
+    display: inline;
+    font-size: 24px;
+    color: #ee530b;  
+}
+#buybestdeals
+{
+margin-bottom: 15px; 
+}
+.PassionOne
+{
+font-family: 'Passion One', cursive;
+color: #ffffff;
+font-size: 22px; 
+opacity: .9;
+}
+#best
+{
+   
+color: #ff6d2a;
+font-size: 92px;
+}
+#logo
+{
+    height: 60px;
+    width: 85px;
+    margin: 0%;
+    padding: 0%;
+  
+}
+/*S M A L L C A R D*/
+
+.container-fluid
+{
+    background: linear-gradient( #0f25a1 , #2ed1fa ,#0f25a1  );
+  height:  auto;
+}
+.container .padding
+{
+  padding-left: 20%; 
+  padding-right: 30%;
+}
+
+.smallcard
+{
+     border-radius: 3px;
+z-index: 5;
+position: relative;
+transform: translate(-50, -50%);
+width: 120px;
+height: 120px;
+overflow: hidden;
+border-style: solid, #262626;
+box-shadow: 0 2px 5px rgb(85, 85, 85);
+transition: .5s;
+margin: auto;
+margin-bottom: 10px; 
+
+
+
+}
+#storepicture
+{
+    position: relative;
+    height: 80px;
+ display: block;
+   width: 100px;
+   margin: 0%;
+
+}
+.smallcard .imagebox
+{
+    margin: 0%;
+    z-index: 9;
+    background: #ffffff;
+position: absolute;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;   
+top: 0;
+left: 0;
+width: 120px;
+height: 120px;
+transform-origin: bottom;
+transition: .5s;
+transform: translateY(0) rotateX(0deg);
+}
+.smallcard:hover .imagebox
+{
+    transform: translateY(100%) rotateX(90deg); 
+}
+.smallcard .smallcarddetails 
+{
+    
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    
+    color: #262626;
+    transform-origin: top;
+    transition: .5s;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.smallcard .smallcarddetails .content
+{
+    color: #df4c1f;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%); 
+    transform: skewY(-5deg) scale(1.5);
+    margin: 0%;
+}
+.smallcard .smallcarddetails .content h2
+{
+font-size: 16px;
+color: #df4c1f;
+text-transform: initial;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.promocardcontainer
+{
+ 
+    position: relative;
+    top: -150px;
+
+}
+
+#colpadding
+{
+
+    padding-left: 4%;
+    padding-right: 4%;  
+
+}
+#featured
+{
+    font-size: 48px;
+    color: rgb(29, 255, 86)
+}
+
+
+
+
+#seeourstores
+{
+    color: #464646;
+}
+#ourstores
+{
+    color: #670fa1;
+    font-size: 48px;
+
+}
+
+#storebox
+{
+
+    background: linear-gradient(#2ed1fa , #f09e34);
+    display: block;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+
+
+#storepicturebox
+{
+    background: white;
+    position: relative;
+    
+    z-index: 2;
+    display: block;
+    height: 190px;
+    width: 190px;
+    overflow: hidden;
+    padding: 10px;
+
+
+
+}
+#storepicture200
+{
+height: 180px;
+width: 180px;
+
+}
+
+.row #storebox:nth-child(odd)
+{
+
+    background: linear-gradient(#422efa , #b61e5d);
+}
+
+
+
+
+@media only screen and (max-width: 768px) 
+{
+
+    .container .padding
+    {
+    padding-left: 0%;
+    padding-right: 22%; 
+    
+    }
+/*S M A L L C A R D*/
+
+
+.smallcard
+{
+    border-radius: 5px; 
+z-index: 5;
+position: relative;
+transform: translate(-50, -50%);
+width: 60px;
+height: 60px;
+overflow: hidden;
+border-style: solid, #262626;
+box-shadow: 0 10px 15px rgb(0, 0, 0);
+transition: .5s;
+margin-left: 0%; 
+margin-bottom: 10px; 
+text-align: center;
+
+
+
+
+}
+#storepicture
+{
+    position: relative;
+    height: 40px;
+ display: block;
+   width: 50px;
+   margin: auto;
+
+}
+.smallcard .imagebox
+{
+    margin: 0%;
+    z-index: 9;
+    background: #ffffff;
+position: absolute;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 5px;
+padding-right: 5px;   
+top: 0;
+left: 0;
+width: 60px;
+height: 60px;
+transform-origin: bottom;
+transition: .5s;
+transform: translateY(0) rotateX(0deg);
+}
+.smallcard:hover .imagebox
+{
+    transform: translateY(100%) rotateX(90deg); 
+}
+.smallcard .smallcarddetails 
+{
+    
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    
+    color: #262626;
+    transform-origin: top;
+    transition: .5s;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.smallcard .smallcarddetails .content
+{
+    color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%); 
+    transform: skewY(-5deg) scale(1.5);
+    margin: 0%;
+}
+.smallcard .smallcarddetails .content h2
+{
+font-size: 8px;
+color: #464646;
+text-transform: initial;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+}
+
+
+
+
